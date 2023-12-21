@@ -60,8 +60,8 @@ Mercado_Pago.post("/", async (req, res) => {
             ],
 
             back_urls: {
-                success: "http://localhost:5173/",
-                failure: "http://localhost:3000/fallo",
+                success: "https://cristian-aliaga.github.io/preproyecto5_v1/",
+                failure: "https://cristian-aliaga.github.io/preproyecto5_v1/",
             },
 
             auto_return: "approved",
